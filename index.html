@@ -91,27 +91,13 @@
 
     <h3 id="conctato" >Conctatame</h3>
 
-    <div class="container-from" >
+    <div class="container" >
         <form action="https://formsubmit.co/d554be514e90100d76651bef30ab0aa2" method="POST" >
-            <div class="from-desing">
-                <div class="from-cont">
-                    <label for="">Nombre</label>
-                    <input type="text" name="name" placeholder="Tu Nombre" required >
-                </div>
+            <input type="text" class="form-contact-input" name="nome" placeholder="Nombre" required />
+            <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
+            <textarea class="form-contact-textarea" name="conteudo" placeholder="Déjame un mensaje" required></textarea>
+            <button type="submit" class="form-contact-button">Enviar</button>
 
-                <div class="from-cont">
-                    <label for="">Correo</label>
-                    <input type="email" name="email" id="email" placeholder="E-mail" required >
-                </div>
-
-                <div class="from-cont">
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                </div>
-
-                <div id="btn-from" class="from-cont">
-                    <input type="submit" value="Enviar">
-                </div>
-            </div>
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_next" value="https://amaurygarcia.github.io/">
         </form>
