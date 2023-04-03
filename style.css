@@ -243,6 +243,14 @@ img {
   }
 }
 
+/*Linea de separacion*/
+
+hr {
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
 
 /*Conctato*/
 
