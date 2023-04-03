@@ -242,20 +242,68 @@ img {
   margin-top: 100px;
 }
 
-.container-from{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f5f5dc;
+.container {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 8rem;
 }
 
-.from-cont{
-  margin: 10px;
-  border-radius: 10%;
+.form-contact {
+  width: 100%;
 }
 
-textarea{
+.form-contact-input {
+  width: 100%;
+  color: #292929;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+.form-contact-textarea {
+  width: 100%;
+  color: #292929;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
   resize: none;
+}
+
+.form-contact-button {
+  width: 100%;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  opacity: .8;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #0099ff;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #fafafa;
+  border-right: 1px solid #f7f7f7;
+  transition: 1s;
+}
+
+.form-contact-button:hover {
+  opacity: 1;
 }
 
 /*Boton Arriba*/
