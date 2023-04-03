@@ -70,6 +70,14 @@ img {
   
 }
 
+@media screen and (max-width: 600px) {
+  .main-menu_item img {
+    width: 30px;
+    height: 30px;
+    
+  }
+}
+
 .main-menu_item a {
   text-decoration: none;
   color: #000;
