@@ -123,6 +123,23 @@ img {
   }
 }
 
+/* Boton whatsapp  */
+
+.btn-whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  z-index: 99;
+
+}
+
+.btn-whatsapp img {
+  width: 80px;
+  height: 80px;
+}
+
+
+
 .style-svg{
   margin-top: -4px;
 }
