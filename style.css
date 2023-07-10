@@ -96,6 +96,7 @@ img {
 
 .contenedor-yo{
   display: flex;
+  padding-bottom: 4px;
 }
 
 .contenedor-yo img{
@@ -106,6 +107,12 @@ img {
 .contenedor-yo p{
   margin-top: 5rem;
   padding-left: 5px;
+}
+
+.cv {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding-bottom: 5px;
 }
 
 @media screen and (max-width: 945px) {
